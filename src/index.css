@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.h1 {
+  @apply text-[36px] leading-[44px] font-semibold md:text-[72px] md:leading-[90px] tracking-[-2%];
+}
+.h2 {
+  @apply text-[30px] leading-[38px] font-semibold md:text-[36px] md:leading-[44px] tracking-[-2%];
+}
+.h3 {
+  @apply text-[18px] leading-[28px] font-semibold md:text-[20px] md:leading-[30px];
+}
+.p {
+  @apply text-[18px] leading-[28px] md:text-[20px] md:leading-[30px];
+}
+.cardText {
+  @apply text-[16px] leading-[24px] font-semibold md:text-[16px] md:leading-[24px];
+}
+
+.small {
+  @apply text-[12px] leading-[18px] font-semibold md:text-[14px] md:leading-[20px]
+  opacity-50;
+}
+
+.mobileContainer {
+  @apply max-w-[90%] md:max-w-[1280px]  flex flex-col  m-auto p-2;
+}
+
+.basicBorder {
+  @apply border-black/50 border-solid border-2 rounded-xl
+  px-1 py-1;
+}
