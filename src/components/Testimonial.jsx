@@ -2,7 +2,7 @@ import avatar from "../assets/avt.png";
 
 const Testimonial = () => {
   return (
-    <section id="testimonial mobileContainer">
+    <section id="testimonial mobileContainer my-5">
       <div
         className="m-auto flex flex-col justify-center items-center md:max-w-[70%]
       text-center"

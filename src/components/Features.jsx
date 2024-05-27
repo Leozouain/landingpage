@@ -2,7 +2,7 @@ import { brandLogos, features } from "../constants";
 
 const Features = () => {
   return (
-    <section className="mobileContainer my-5 ">
+    <section id="features" className="mobileContainer my-5">
       <div className="flex flex-col justify-center items-center text-center">
         <p className="small">Features</p>
         <h3 className="h3 ">Analytics that feels like it’s from the future</h3>
@@ -20,7 +20,7 @@ const Features = () => {
           {features.map((e) => (
             <li
               key={e.id}
-              className="w-[384px] p-5 flex flex-col m-auto justify-center items-center"
+              className="max-w-[384px] p-5 flex flex-col m-auto justify-center items-center"
             >
               <img
                 src={e.icon}
